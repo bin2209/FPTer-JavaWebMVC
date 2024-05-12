@@ -6,6 +6,6 @@
 <script src="${pageContext.request.contextPath}/static/assets/libs/simplebar/dist/simplebar.js"></script>
 <script src="${pageContext.request.contextPath}/static/js/dashboard.js"></script>
 
-</body>
+
 
 </html>
