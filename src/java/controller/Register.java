@@ -15,7 +15,7 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author mac
  */
-public class Profile extends HttpServlet {
+public class Register extends HttpServlet {
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
@@ -34,10 +34,10 @@ public class Profile extends HttpServlet {
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
-            out.println("<title>Servlet profile</title>");            
+            out.println("<title>Servlet Register</title>");            
             out.println("</head>");
             out.println("<body>");
-            out.println("<h1>Servlet profile at " + request.getContextPath() + "</h1>");
+            out.println("<h1>Servlet Register at " + request.getContextPath() + "</h1>");
             out.println("</body>");
             out.println("</html>");
         }
@@ -55,7 +55,9 @@ public class Profile extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-         request.getRequestDispatcher("profile.jsp").forward(request, response);
+//        processRequest(request, response);
+        request.getRequestDispatcher("auth/register.jsp").forward(request, response);
+
     }
 
     /**
@@ -69,7 +71,7 @@ public class Profile extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-         request.getRequestDispatcher("profile.jsp").forward(request, response);
+        processRequest(request, response);
     }
 
     /**
