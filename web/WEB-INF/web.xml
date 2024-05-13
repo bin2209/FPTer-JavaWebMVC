@@ -13,14 +13,6 @@
         <load-on-startup>2</load-on-startup>
     </servlet>
     <servlet>
-        <servlet-name>profile</servlet-name>
-        <servlet-class>controller.Profile</servlet-class>
-    </servlet>
-    <servlet>
-        <servlet-name>event</servlet-name>
-        <servlet-class>controller.Event</servlet-class>
-    </servlet>
-    <servlet>
         <servlet-name>group</servlet-name>
         <servlet-class>controller.Group</servlet-class>
     </servlet>
@@ -40,17 +32,17 @@
         <servlet-name>LostAccount</servlet-name>
         <servlet-class>controller.LostAccount</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>Profile</servlet-name>
+        <servlet-class>controller.Profile</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Event</servlet-name>
+        <servlet-class>controller.Event</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>dispatcher</servlet-name>
         <url-pattern>*.htm</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>profile</servlet-name>
-        <url-pattern>/profile</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>event</servlet-name>
-        <url-pattern>/event</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>group</servlet-name>
@@ -71,6 +63,14 @@
     <servlet-mapping>
         <servlet-name>LostAccount</servlet-name>
         <url-pattern>/lost-account</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Profile</servlet-name>
+        <url-pattern>/profile</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Event</servlet-name>
+        <url-pattern>/event</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

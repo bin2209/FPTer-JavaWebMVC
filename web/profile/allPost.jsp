@@ -1,10 +1,17 @@
-<div class="row">
-    <div class="col-lg-8 d-flex align-items-stretch">
-        <div class="card w-100">
-            <div class="card-body p-4">
-                <h5 class="card-title fw-semibold mb-4">All Posts</h5>
-                Loading...
-            </div>
-        </div>
-    </div>
-</div>
+<%-- 
+    Document   : allPost
+    Created on : May 13, 2024, 8:17:43 AM
+    Author     : mac
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>JSP Page</title>
+    </head>
+    <body>
+        <h1>Hello World!</h1>
+    </body>
+</html>
