@@ -9,7 +9,7 @@
         <div class="body-wrapper">
             <%@ include file="../include/navbar.jsp" %>
             <div class="container-fluid">
-                <%@ include file="allPost.jsp" %>
+                <%--<%@ include file="allEvent.jsp" %>--%>
             </div>
         </div>
             
