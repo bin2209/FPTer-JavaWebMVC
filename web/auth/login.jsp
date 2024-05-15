@@ -23,7 +23,7 @@
       class="position-relative overflow-hidden radial-gradient min-vh-100 d-flex align-items-center justify-content-center">
       <div class="d-flex align-items-center justify-content-center w-100">
         <div class="row justify-content-center w-100">
-          <div class="col-md-8 col-lg-6 col-xxl-3">
+          <div class="col-md-8 col-lg-4 col-xxl-3">
             <div class="card mb-0">
               <div class="card-body">
                 <a href="${pageContext.request.contextPath}/" class="text-nowrap logo-img text-center d-block py-3 w-100">
@@ -39,6 +39,11 @@
                     <label for="exampleInputPassword1" class="form-label">Password</label>
                     <input type="password" class="form-control" placeholder="Enter password">
                   </div>
+                    
+                  
+                    
+                    
+                    
                   <div class="d-flex align-items-center justify-content-between mb-4">
                     <div class="form-check">
                       <input class="form-check-input primary" type="checkbox" value="" id="flexCheckChecked" checked>
@@ -49,7 +54,10 @@
                     <a class="text-primary fw-bold" href="${pageContext.request.contextPath}/lost-account">Forgot Password ?</a>
                   </div>
                   <a href="${pageContext.request.contextPath}/login" class="btn btn-primary w-100 py-8 fs-4 mb-4 rounded-2">Sign In</a>
-                  <div class="d-flex align-items-center justify-content-center">
+                  
+                   <%@ include file="googlelogin.jsp" %>
+                   
+                  <div class="mt-3 d-flex align-items-center justify-content-center">
                     <a class="text-primary fw-bold ms-2" href="${pageContext.request.contextPath}/register">Create an account</a>
                   </div>
                 </form>
