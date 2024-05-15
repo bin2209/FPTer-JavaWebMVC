@@ -9,11 +9,9 @@
         <div class="body-wrapper">
             <%@ include file="include/navbar.jsp" %>
             <div class="container-fluid">
-                <%@ include file="include/newsfeed.jsp" %>
+                <%@ include file="user/newsfeed.jsp" %>
             </div>
         </div>
-            
-            
             
     </div>
 </body>
