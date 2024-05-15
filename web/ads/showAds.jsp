@@ -10,7 +10,7 @@ show this in right index
         padding:0;
     }
     .card-body{
-        padding: 10px;
+        padding: 20px;
     }
 </style>
 <div class="card col-md-4 mx-md-3" style=" position:sticky; right: 0;">
