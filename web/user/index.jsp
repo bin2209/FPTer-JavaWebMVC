@@ -10,10 +10,11 @@
             <%@ include file="../include/navbar.jsp" %>
             <div class="container-fluid">
                 <%@ include file="${pageContext.request.contextPath}/user/newsfeed.jsp" %>
+           
+
             </div>
-             <%@ include file="${pageContext.request.contextPath}/include/advertising.jsp" %>
         </div>
-            
+
             
             
     </div>

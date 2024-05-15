@@ -40,6 +40,10 @@
         <servlet-name>Event</servlet-name>
         <servlet-class>controller.Event</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>Advertising</servlet-name>
+        <servlet-class>controller.Advertising</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>dispatcher</servlet-name>
         <url-pattern>*.htm</url-pattern>
@@ -72,6 +76,10 @@
         <servlet-name>Event</servlet-name>
         <url-pattern>/event</url-pattern>
     </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Advertising</servlet-name>
+        <url-pattern>/advertising</url-pattern>
+    </servlet-mapping>
     <session-config>
         <session-timeout>
             30
@@ -80,4 +88,10 @@
     <welcome-file-list>
         <welcome-file>index.jsp</welcome-file>
     </welcome-file-list>
+    <jsp-config>
+        <jsp-property-group>
+            <url-pattern>*.jsp</url-pattern>
+            <page-encoding>UTF-8</page-encoding>
+        </jsp-property-group>
+    </jsp-config>
 </web-app>

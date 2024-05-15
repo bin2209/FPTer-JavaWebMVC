@@ -1,8 +1,8 @@
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%-- 
-    Document   : allAdsvertising
-    Created on : May 15, 2024, 3:20:04 PM
+    Document   : buyAds
+    Created on : May 15, 2024, 4:28:44?PM
     Author     : mac
+Nap vip
 --%>
 <style>
     .row>*{
@@ -12,7 +12,7 @@
         padding: 10px;
     }
 </style>
-<h2 class="titile">Explore all Advertising</h2>
+<h2 class="titile">Upgrade your account to have more benefits</h2>
 
 
 <div class="row">
@@ -65,10 +65,6 @@
             <a href="#" class="btn btn-primary w-100 mt-3">Upgrade</a>
         </div>
     </div>
-
-
-
-
 
 
 </div>
