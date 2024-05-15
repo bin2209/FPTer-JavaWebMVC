@@ -4,15 +4,62 @@
     Author     : mac
 --%>
 
-<h2 class="titile">Event</h2>
+<h2 class="titile">Explore all events</h2>
+
 
 <div class="row">
-    <div class="col-lg-8 d-flex align-items-stretch">
-        <div class="card w-100">
-            <div class="card-body p-4">
-                <h5 class="card-title fw-semibold mb-4"> </h5>
-                Loading...
-            </div>
+    <div class="card col-md-3 m-2">
+        <img src="../assets/images/products/s4.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Event 1 </h5>
+            <p class="card-text">Start: DD/MM/YY </p>
+            <p class="card-text">End: DD/MM/YY </p>
+            <p class="card-text">Organize: FPT Smoker </p>
+
+
+            <a href="#" class="btn btn-primary w-100 mt-3">Interest</a>
         </div>
     </div>
+
+    <div class="card col-md-3 m-2">
+        <img src="../assets/images/products/s4.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Event 2</h5>
+            <p class="card-text">Start: DD/MM/YY </p>
+            <p class="card-text">End: DD/MM/YY </p>
+            <p class="card-text">Organize: FPT Smoker </p>
+
+
+            <a href="#" class="btn btn-primary w-100 mt-3">Interest</a>
+        </div>
+    </div>
+
+    <div class="card col-md-3 m-2">
+        <img src="../assets/images/products/s4.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Event 3</h5>
+            <p class="card-text">Start: DD/MM/YY </p>
+            <p class="card-text">End: DD/MM/YY </p>
+            <p class="card-text">Organize: FPT Smoker </p>
+
+
+
+            <a href="#" class="btn btn-primary w-100 mt-3">Interest</a>
+        </div>
+    </div>
+
+
+    <div class="card col-md-3 m-2">
+        <img src="../assets/images/products/s4.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Event 3 test xuong dong</h5>
+            <p class="card-text">Start: DD/MM/YY </p>
+            <p class="card-text">End: DD/MM/YY </p>
+
+            <a href="#" class="btn btn-primary w-100 mt-3">Interest</a>
+        </div>
+    </div>
+
+
+
 </div>

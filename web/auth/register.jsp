@@ -24,7 +24,7 @@
                 class="position-relative overflow-hidden radial-gradient min-vh-100 d-flex align-items-center justify-content-center">
                 <div class="d-flex align-items-center justify-content-center w-100">
                     <div class="row justify-content-center w-100">
-                        <div class="col-md-8 col-lg-6 col-xxl-3">
+                        <div class="col-md-8 col-lg-4 col-xxl-3">
                             <div class="card mb-0">
                                 <div class="card-body">
                                     <a href="${pageContext.request.contextPath}/" class="text-nowrap logo-img text-center d-block py-3 w-100">
@@ -52,7 +52,8 @@
                                         
                                         
                                         <a href="${pageContext.request.contextPath}/register" class="btn btn-primary w-100 py-8 fs-4 mb-4 rounded-2">Sign Up</a>
-                                        <div class="d-flex align-items-center justify-content-center">
+                                        <%@ include file="googlelogin.jsp" %>
+                                        <div class="mt-3 d-flex align-items-center justify-content-center">
                                             <p class="fs-4 mb-0 fw-bold">Already have an account?</p>
                                             <a class="text-primary fw-bold ms-2" href="${pageContext.request.contextPath}/login">Sign In</a>
                                         </div>
