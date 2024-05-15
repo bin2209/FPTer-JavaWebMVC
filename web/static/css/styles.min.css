@@ -20164,3 +20164,16 @@ ul {
 .timeline-widget .timeline-item .timeline-badge.badge-primary {
     border: 2px solid #5D87FF
 }
+
+.chat-box{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    /* width: 100vh; */
+    /* height: 100vh; */
+    /* margin: 0; */
+    /* padding: 0; */
+    width: 400px;
+    /*max-height: 500px;*/
+}
+

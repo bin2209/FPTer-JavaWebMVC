@@ -56,6 +56,7 @@ public class Profile extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 //        processRequest(request, response);
+        response.setContentType("text/html;charset=UTF-8");
         request.getRequestDispatcher("profile/index.jsp").forward(request, response);
 
     }

@@ -34,7 +34,7 @@ public class Event extends HttpServlet {
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
-            out.println("<title>Servlet Event</title>");            
+            out.println("<title>Servlet Event</title>");
             out.println("</head>");
             out.println("<body>");
             out.println("<h1>Servlet Event at " + request.getContextPath() + "</h1>");
@@ -71,6 +71,7 @@ public class Event extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
+        response.setContentType("text/html;charset=UTF-8");
         processRequest(request, response);
     }
 

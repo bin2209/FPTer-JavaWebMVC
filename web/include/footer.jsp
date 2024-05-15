@@ -1,3 +1,5 @@
+
+<%@ include file="/user/chat.jsp" %>
 <%@ include file="/user/toast.jsp" %>
 
 

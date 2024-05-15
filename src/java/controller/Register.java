@@ -34,7 +34,7 @@ public class Register extends HttpServlet {
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
-            out.println("<title>Servlet Register</title>");            
+            out.println("<title>Servlet Register</title>");
             out.println("</head>");
             out.println("<body>");
             out.println("<h1>Servlet Register at " + request.getContextPath() + "</h1>");
@@ -56,8 +56,8 @@ public class Register extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 //        processRequest(request, response);
+        response.setContentType("text/html;charset=UTF-8");
         request.getRequestDispatcher("auth/register.jsp").forward(request, response);
-
     }
 
     /**

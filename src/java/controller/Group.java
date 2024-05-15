@@ -34,7 +34,7 @@ public class Group extends HttpServlet {
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
-            out.println("<title>Servlet group</title>");            
+            out.println("<title>Servlet group</title>");
             out.println("</head>");
             out.println("<body>");
             out.println("<h1>Servlet group at " + request.getContextPath() + "</h1>");
@@ -55,8 +55,8 @@ public class Group extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-//        processRequest(request, response);
-         request.getRequestDispatcher("group/index.jsp").forward(request, response);
+        response.setContentType("text/html;charset=UTF-8");
+        request.getRequestDispatcher("group/index.jsp").forward(request, response);
 
     }
 
