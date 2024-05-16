@@ -11,8 +11,8 @@
     .sender .text-muted{
         float: right;
     }
-    .chat-box .rounded-circle{
-
+    #boxchat{
+        z-index: 99999;
     }
 </style>
 <!--chu y cai id o box chat de chay js hien thi -->
