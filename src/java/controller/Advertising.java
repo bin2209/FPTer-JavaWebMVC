@@ -34,7 +34,7 @@ public class Advertising extends HttpServlet {
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
-            out.println("<title>Servlet Advertising</title>");            
+            out.println("<title>Servlet Advertising</title>");
             out.println("</head>");
             out.println("<body>");
             out.println("<h1>Servlet Advertising at " + request.getContextPath() + "</h1>");
@@ -56,6 +56,8 @@ public class Advertising extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 //        processRequest(request, response);
+
+        response.setContentType("text/html;charset=UTF-8");
 
         request.getRequestDispatcher("ads/index.jsp").forward(request, response);
 

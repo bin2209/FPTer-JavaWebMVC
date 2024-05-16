@@ -3,9 +3,8 @@
 
 
 
-        <ul class="navbar-nav">
+        <ul class="navbar-nav w-100" style="max-width: 400px">
             <input type="text" class="form-control " placeholder="Search" >
-
         </ul>
 
         <div class="navbar-collapse justify-content-end px-0" id="navbarNav">
@@ -26,9 +25,9 @@
                             <div class="notification bg-primary rounded-circle"></div>
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink" style="left: -10vw !important">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li><a class="dropdown-item" href="#">Notification 1</a></li>
+                            <li><a class="dropdown-item" href="#">Notification 2</a></li>
+                            <li><a class="dropdown-item" href="#">Notification 3</a></li>
                         </ul>
                     </li>
                 </div>

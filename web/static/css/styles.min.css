@@ -20173,7 +20173,7 @@ ul {
     /* height: 100vh; */
     /* margin: 0; */
     /* padding: 0; */
-    width: 400px;
+    width: fit-content;
     /*max-height: 500px;*/
 }
 
