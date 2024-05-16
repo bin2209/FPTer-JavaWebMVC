@@ -12,7 +12,6 @@
             <div class="container-fluid">
                 <div class="row">
                     <%@ include file="user/newsfeed.jsp" %>
-                    <%@ include file="ads/showAds.jsp" %>
                 </div>
             </div>
         </div>

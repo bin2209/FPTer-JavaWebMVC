@@ -8,5 +8,13 @@
         <link rel="stylesheet" href="${pageContext.request.contextPath}/static/css/styles.min.css" />
         <!--<link rel="stylesheet" href="${pageContext.request.contextPath}/static/css/bootstrap.css" />-->
 
-<!--<link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.0/css/bootstrap.min.css" rel="stylesheet">-->
+        <!--<link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.0/css/bootstrap.min.css" rel="stylesheet">-->
+        <style>
+            .row>*{
+                padding:0;
+            }
+            .card-body{
+                padding: 20px;
+            }
+        </style>
     </head>

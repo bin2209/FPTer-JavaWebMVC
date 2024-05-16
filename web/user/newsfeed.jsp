@@ -27,7 +27,7 @@
                 </p>
             </div>
 
-            <div class="mb-3 ">
+            <div class="">
                 <!--tha tim / comment/ share-->  
                 <div class="row p-3 d-flex justify-content-center text-center">
 
@@ -36,7 +36,7 @@
                         <span class="hide-menu">Like</span>
                     </a>
 
-                    <a class="col nav-link nav-icon-hover" href="javascript:void(0)">
+                    <a class="col nav-link nav-icon-hover" >
                         <span><i class="ti ti-message-plus"></i></span>
                         <span class="hide-menu">Comment</span>
                     </a>

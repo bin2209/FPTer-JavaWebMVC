@@ -1,4 +1,3 @@
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
 
 <%-- 
 
@@ -7,15 +6,8 @@
     Author     : mac
 --%>
 
-<style>
-    .row>*{
-        padding:0;
-    }
-    .card-body{
-        padding: 10px;
-    }
-</style>
-<h2 class="titile">Explore all events</h2>
+
+<h2 class="titile">All Group</h2>
 
 
 <div class="row">
