@@ -5,23 +5,23 @@
     Author     : mac
 --%>
 <style>
-    .row>*{
+    .event .row>*{
         padding:0;
     }
-    .card-body{
+    .event .card-body{
         padding: 10px;
     }
-    .event-interest-btn{
+    .event .event-interest-btn{
         position: absolute;
         bottom: 2%;
         left: 3%;
         width: 94%;
     }
-    .card{
+    .event .card{
         padding-bottom:42px;
     }
     @media (max-width: 750px) {
-        .event-interest-btn{
+        .event .event-interest-btn{
             width: unset;
             left: 1.5%;
 
@@ -31,7 +31,7 @@
 <h2 class="titile">Explore all events</h2>
 
 
-<div class="row">
+<div class="row event">
     <div class="card col-md-3 m-2">
         <img src="${pageContext.request.contextPath}/upload/eda49b3478bea2565bcc9a5ec538b84b.png" class="card-img-top event-img" alt="...">
         <div class="card-body">

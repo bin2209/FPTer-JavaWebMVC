@@ -59,17 +59,7 @@
                 
             </ul>
 
-            <div class="unlimited-access hide-menu bg-light-primary position-relative mb-7 mt-5 rounded">
-                <div class="d-flex">
-                    <div class="unlimited-access-title me-3">
-                        <h6 class="fw-semibold fs-4 mb-6 text-dark w-85">Buy Premium Account</h6>
-                        <a href="" target="_blank" class="btn btn-primary fs-2 fw-semibold lh-sm">Go to billing setting </a>
-                    </div>
-                    <div class="unlimited-access-img">
-                        <img src="${pageContext.request.contextPath}/static/images/backgrounds/rocket.png" alt="" class="img-fluid">
-                    </div>
-                </div>
-            </div>
+             <%@ include file="../ads/showAds.jsp" %>
         </nav>
     </div>
 </aside>
