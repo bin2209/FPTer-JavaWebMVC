@@ -6282,6 +6282,10 @@ fieldset:disabled .btn {
     border-top-right-radius: var(--bs-card-inner-border-radius)
 }
 
+.event-img{
+    height:200px;
+    object-fit: cover;
+}
 .card-img,
 .card-img-bottom {
     border-bottom-right-radius: var(--bs-card-inner-border-radius);
@@ -20160,3 +20164,16 @@ ul {
 .timeline-widget .timeline-item .timeline-badge.badge-primary {
     border: 2px solid #5D87FF
 }
+
+.chat-box{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    /* width: 100vh; */
+    /* height: 100vh; */
+    /* margin: 0; */
+    /* padding: 0; */
+    width: fit-content;
+    /*max-height: 500px;*/
+}
+
