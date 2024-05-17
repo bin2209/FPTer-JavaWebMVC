@@ -12,7 +12,7 @@
 
         <div class="body-wrapper">
             <%@ include file="../include/navbar.jsp" %>
-            <div class="container-fluid">
+            <div class="container-fluid pb-2">
                 <div class="row ">
                     <div id ="profile-wrapper" >
                         <div class="bg-white shadow rounded overflow-hidden ">
@@ -20,7 +20,7 @@
                                 <div class="media align-items-end profile-head">
                                     <div class="profile mr-3 d-flex justify-content-between align-items-end">
                                         <img src="${pageContext.request.contextPath}/upload/tien-do-quy-4-4.png" class="rounded-circle img-thumbnail">
-                                        <a href="#" class="btn btn-outline-dark btn-sm btn-block edit-cover">Edit profile</a>
+                                        <a href="${pageContext.request.contextPath}/profile/setting" class="btn btn-outline-dark btn-sm btn-block edit-cover">Edit profile</a>
                                     </div>
 
                                 </div>
@@ -49,13 +49,44 @@
                                     <p class="font-italic mb-0">Web Developer Lives in DN Photographer</p>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <div class="row">
-                    <%--<%@ include file="newsfeed.jsp" %>--%>
+
+            <div class="container-fluid pt-0">
+                <div class="row form-settings bg-white shadow rounded py-4 px-4 d-flex justify-content-between ">
+                    <div class="p0">
+                        <h5 class="mb-2">Settings</h5>
+                    </div>
+                    <form >
+                          <div class="form-group pb-3">
+                            <label>Full Name </label>
+                            <input type="text" class="form-control" value="Nguyen Truong"/>
+                        </div>
+                        <div class="form-group pb-3">
+                            <label>Email address</label>
+                            <input type="email" class="form-control" value="binazure@gmail.com" readonly/>
+                        </div>
+
+                        <div class="form-group pb-3">
+                            <label>About</label>
+                            <input type="text" class="form-control" value="Web Developer Lives in DN Photographer">
+                        </div>
+
+                        <div class="form-group pb-3">
+                            <label>Sex</label>
+                            <select class="form-control" id="exampleFormControlSelect1">
+                                <option>Select gender</option>
+                                <option>Male</option>
+                                <option>Female</option>
+                            </select>
+                        </div>
+                        
+                        
+                        <button type="submit" class="btn btn-primary">Save changes</button>
+                    </form>
                 </div>
             </div>
         </div>
