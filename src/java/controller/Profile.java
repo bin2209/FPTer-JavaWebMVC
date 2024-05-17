@@ -31,7 +31,7 @@ public class Profile extends HttpServlet {
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
             /* TODO output your page here. You may use following sample code. */
-            out.println("<!DOCTYPE html>");
+            out.println("<!DOCTYPE html PUBLIC \"-//W3C//DTD HTML 4.01 Frameset//EN\" \"http://www.w3.org/TR/html4/frameset.dtd\">");
             out.println("<html>");
             out.println("<head>");
             out.println("<title>Servlet Profile</title>");            
@@ -55,9 +55,8 @@ public class Profile extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-//        processRequest(request, response);
-        response.setContentType("text/html;charset=UTF-8");
-        request.getRequestDispatcher("profile/index.jsp").forward(request, response);
+       response.setContentType("text/html;charset=UTF-8");
+        request.getRequestDispatcher("user/profile.jsp").forward(request, response);
 
     }
 

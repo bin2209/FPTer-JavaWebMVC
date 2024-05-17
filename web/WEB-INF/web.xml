@@ -33,16 +33,16 @@
         <servlet-class>controller.LostAccount</servlet-class>
     </servlet>
     <servlet>
-        <servlet-name>Profile</servlet-name>
-        <servlet-class>controller.Profile</servlet-class>
-    </servlet>
-    <servlet>
         <servlet-name>Event</servlet-name>
         <servlet-class>controller.Event</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>Advertising</servlet-name>
         <servlet-class>controller.Advertising</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Profile</servlet-name>
+        <servlet-class>controller.Profile</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>dispatcher</servlet-name>
@@ -69,16 +69,16 @@
         <url-pattern>/lost-account</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
-        <servlet-name>Profile</servlet-name>
-        <url-pattern>/profile</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
         <servlet-name>Event</servlet-name>
         <url-pattern>/event</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>Advertising</servlet-name>
         <url-pattern>/advertising</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Profile</servlet-name>
+        <url-pattern>/profile</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

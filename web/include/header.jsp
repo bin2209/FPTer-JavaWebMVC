@@ -16,5 +16,8 @@
             .card-body{
                 padding: 20px;
             }
+            .app-header{
+                padding: 0 12px;
+            }
         </style>
     </head>
