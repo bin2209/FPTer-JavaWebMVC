@@ -19,5 +19,40 @@
             .app-header{
                 padding: 0 12px;
             }
+            .container-fluid{
+                width: calc(100% - 248px);
+                position: relative;
+                right: 123px;
+            }
+            #profile-wrapper{
+                margin-bottom:20px;
+            }
+            .profile img{
+                width: 130px;
+                height: 130px;
+            }
+            .profile .edit-cover {
+                position: relative;
+                color: white;
+                right: 0;
+                height: -webkit-fit-content;
+                border: 1px solid;
+            }
+            @media (max-width: 1000px) {
+                .row .m-2{
+                    margin: 0 !important;
+                }
+                .container-fluid{
+                    width: calc(100%);
+                    right: 0;
+                }
+
+                .right-sidebar{
+                    display: none;
+                }
+                #boxchat{
+                    display: none !important;
+                }
+            }
         </style>
     </head>

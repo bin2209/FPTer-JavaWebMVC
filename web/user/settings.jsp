@@ -1,3 +1,9 @@
+<%-- 
+    Document   : settings
+    Created on : May 17, 2024, 9:55:18 AM
+    Author     : mac
+--%>
+
 <%@ include file="../include/header.jsp" %>
 <body>
     <div class="page-wrapper" id="main-wrapper" data-layout="vertical" data-navbarbg="skin6" data-sidebartype="full"
@@ -49,7 +55,7 @@
                 </div>
 
                 <div class="row">
-                    <%@ include file="newsfeed.jsp" %>
+                    <%--<%@ include file="newsfeed.jsp" %>--%>
                 </div>
             </div>
         </div>

@@ -44,6 +44,10 @@
         <servlet-name>Profile</servlet-name>
         <servlet-class>controller.Profile</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>Setting</servlet-name>
+        <servlet-class>controller.Setting</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>dispatcher</servlet-name>
         <url-pattern>*.htm</url-pattern>
@@ -79,6 +83,10 @@
     <servlet-mapping>
         <servlet-name>Profile</servlet-name>
         <url-pattern>/profile</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Setting</servlet-name>
+        <url-pattern>/profile/setting</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

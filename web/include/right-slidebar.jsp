@@ -5,30 +5,24 @@
 --%>
 
 <style>
+    
     .right-sidebar {
-        right: 0;
         top: 69px;
-        width: 200px;
+        right: -24px;
+        max-width: 270px;
         background-color: #fff;
-        position: absolute;
+        position: fixed;
         -webkit-transition: 0.2s ease-in;
         transition: 0.2s ease-in;
-        height: calc(100vh - 69px);
+        height: calc(100vh );
         z-index: 1;
         border-right: 1px solid rgb(229, 234, 239);
     }
 
-    @media (max-width: 1000px) {
-        .right-sidebar{
-            display: none;
-        }
-        #boxchat{
-            display: none !important;
-        }
-    }
+  
 
 </style>
-<aside class="right-sidebar border" >
+<aside class="col-3 right-sidebar border  " >
     <!-- Sidebar scroll-->
     <div>
 
