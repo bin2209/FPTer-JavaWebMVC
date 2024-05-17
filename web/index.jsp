@@ -9,14 +9,15 @@
 
         <div class="body-wrapper">
             <%@ include file="include/navbar.jsp" %>
-            <div class="container-fluid">
-                <div class="row">
+            <div class="container-fluid d-flex">
+                <div >
                     <%@ include file="user/newsfeed.jsp" %>
                 </div>
+                        <%@ include file="include/right-slidebar.jsp" %>
+
             </div>
 
         </div>
-        <%@ include file="include/right-slidebar.jsp" %>
 
 
     </div>

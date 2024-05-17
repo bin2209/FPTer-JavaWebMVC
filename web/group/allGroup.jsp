@@ -7,10 +7,9 @@
 --%>
 
 
-<h2 class="titile">All Group</h2>
 
 
-<div class="row">
+<div class="row" >
     <div class="card col-md-3 m-2">
         <img src="${pageContext.request.contextPath}/upload/tien-do-quy-4-4.png" class="card-img-top event-img" alt="...">
         <div class="card-body">

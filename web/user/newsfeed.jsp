@@ -1,9 +1,7 @@
 <%@ page contentType="text/html; charset=UTF-8" %>
 
-
-
 <!--LOOP THIS ROW BELLOW to show post-->
-<div class="col-lg-7 ">
+<div class="col-lg-12 ">
     <div class="card w-100">
         <div class="card-body p-4">
             <div class="pb-3 d-inline">
@@ -46,8 +44,6 @@
                         <span class="hide-menu">Share</span>
                     </a>
                 </div>
-
-
                 <div class="input-group">
                     <input type="text" class="form-control" placeholder="Write a comment" >
                 </div>
