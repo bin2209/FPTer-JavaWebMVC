@@ -14,7 +14,7 @@
                                 <div class="media align-items-end profile-head">
                                     <div class="profile mr-3 d-flex justify-content-between align-items-end">
                                         <img src="${pageContext.request.contextPath}/upload/tien-do-quy-4-4.png" class="rounded-circle img-thumbnail">
-                                        <a href="#" class="btn btn-outline-dark btn-sm btn-block edit-cover">Edit profile</a>
+                                        <a href="${pageContext.request.contextPath}/profile/setting" class="btn btn-outline-dark btn-sm btn-block edit-cover">Edit profile</a>
                                     </div>
 
                                 </div>
