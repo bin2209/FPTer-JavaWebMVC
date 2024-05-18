@@ -3,27 +3,9 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/Users/mac/FPT%20Education/fpter/FPTer/src/java/controller/Event.java</file>
-            <file>file:/Users/mac/FPT%20Education/fpter/FPTer/web/ads/showAds.jsp</file>
-            <file>file:/Users/mac/FPT%20Education/fpter/FPTer/web/user/index.jsp</file>
-            <file>file:/Users/mac/FPT%20Education/fpter/FPTer/web/auth/register.jsp</file>
+            <file>file:/Users/mac/FPT%20Education/fpter/FPTer/web/user/settings.jsp</file>
+            <file>file:/Users/mac/FPT%20Education/fpter/FPTer/web/user/profile.jsp</file>
             <file>file:/Users/mac/FPT%20Education/fpter/FPTer/web/include/navbar.jsp</file>
-            <file>file:/Users/mac/FPT%20Education/fpter/FPTer/web/ads/index.jsp</file>
-            <file>file:/Users/mac/FPT%20Education/fpter/FPTer/web/WEB-INF/web.xml</file>
-            <file>file:/Users/mac/FPT%20Education/fpter/FPTer/web/user/newsfeed.jsp</file>
-            <file>file:/Users/mac/FPT%20Education/fpter/FPTer/web/include/header.jsp</file>
-            <file>file:/Users/mac/FPT%20Education/fpter/FPTer/web/static/css/styles.min.css</file>
-            <file>file:/Users/mac/FPT%20Education/fpter/FPTer/web/auth/googlelogin.jsp</file>
-            <file>file:/Users/mac/FPT%20Education/fpter/FPTer/web/include/slidebar.jsp</file>
-            <file>file:/Users/mac/FPT%20Education/fpter/FPTer/web/event/index.jsp</file>
-            <file>file:/Users/mac/FPT%20Education/fpter/FPTer/web/event/allEvent.jsp</file>
-            <file>file:/Users/mac/FPT%20Education/fpter/FPTer/web/user/notification.jsp</file>
-            <file>file:/Users/mac/FPT%20Education/fpter/FPTer/web/include/footer.jsp</file>
-            <file>file:/Users/mac/FPT%20Education/fpter/FPTer/web/index.jsp</file>
-            <file>file:/Users/mac/FPT%20Education/fpter/FPTer/web/auth/login.jsp</file>
-            <file>file:/Users/mac/FPT%20Education/fpter/FPTer/web/ads/allAds.jsp</file>
-            <file>file:/Users/mac/FPT%20Education/fpter/FPTer/web/ads/buyAds.jsp</file>
-            <file>file:/Users/mac/FPT%20Education/fpter/FPTer/web/static/css/bootstrap.css</file>
         </group>
     </open-files>
 </project-private>
